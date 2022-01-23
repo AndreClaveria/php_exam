@@ -1,0 +1,112 @@
+body,
+html {
+    overflow-x: hidden;
+}
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: unset;
+}
+body {
+    /* background-color: rgb(216, 216, 216); */
+    background-color:midnightblue;
+    overflow: hidden;
+    font-family: 'Roboto', sans-serif;
+}
+section {
+    width: 100vw;
+    min-height: 80%;
+}
+.all{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 100px;
+}
+.all p{
+    height: 50px;
+}
+.all a{
+    width: 100px;
+    height: 40px;
+    border-radius: 5px;
+    border: solid 2px ghostwhite;
+    background-color:black;
+    color: ghostwhite;
+    font-size: 20px;
+    transition-duration:200ms ;
+    padding: 4px;
+}
+.all a:hover{
+    cursor: pointer;
+    background-color: rgb(0, 0, 0);
+    font-weight: bold;
+    padding: 6px;
+    font-size: 22px;
+}
+.article{
+    min-height: 200px;
+    width: 500px;
+    border: solid black 2px;
+    border-radius: 5px;
+    background-color: #2a9df4 ;
+
+}
+h2{
+    margin-top: 2px;
+    font-size: 20px;
+    text-align: center;
+    color: ghostwhite;
+}
+.autre{
+    margin-top: 100px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+
+}
+.button{
+    position: absolute;
+    width: 150px;
+    height: 50px;
+    top: 100px;
+    left: 20px;
+
+}
+/* 
++----------------------------------------------------------------------+
+| Scroll Bar
++----------------------------------------------------------------------+
+*/
+::-webkit-scrollbar {
+    width: 8px;
+    background-color: black;
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: #2a9df4;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background-color: cyan;
+}
+
+::-webkit-scrollbar-button {
+    height: 8px;
+    background-color: #2a9df4;
+}
+/* 
++----------------------------------------------------------------------+
+| Selection
++----------------------------------------------------------------------+
+*/
+::-moz-selection {
+    color: black;
+    background-color: #2a9df4;
+}
+
+::selection {
+    color: gold;
+    background-color: blue;
+}
